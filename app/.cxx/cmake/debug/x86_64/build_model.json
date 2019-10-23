@@ -1,0 +1,78 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo",
+      "sdkFolder": "/Users/lonmee/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app",
+      "makeFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/.cxx",
+      "cxxFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx",
+      "ndkFolder": "/Users/lonmee/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DANDROID_TOOLCHAIN\u003dclang"
+    ],
+    "cFlagList": [
+      "-D_EXAMPLE_C_FLAG1",
+      "-D_EXAMPLE_C_FLAG2"
+    ],
+    "cppFlagsList": [
+      "-D__STDC_FORMAT_MACROS"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64",
+  "jsonFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64",
+  "objFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates/cmake/debug/obj/x86_64",
+  "buildCommandFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/build_generation_state.json",
+    "cacheKeyFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug/x86_64/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86_64/compile_commands.json"
+}

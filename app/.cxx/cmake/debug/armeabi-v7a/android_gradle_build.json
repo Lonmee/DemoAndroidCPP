@@ -1,0 +1,60 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/lonmee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"app-glue-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "app-glue",
+			"buildCommand" : "/Users/lonmee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a --target app-glue",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -D_EXAMPLE_C_FLAG1 -D_EXAMPLE_C_FLAG2 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a/libapp-glue.a",
+			"toolchain" : "4809725587321911146"
+		},
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/lonmee/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "4809725587321911146"
+		}
+	},
+	"toolchains" : 
+	{
+		"4809725587321911146" : 
+		{
+			"cCompilerExecutable" : "/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lonmee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

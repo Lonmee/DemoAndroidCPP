@@ -1,0 +1,5 @@
+# ninja log v5
+0	2432	0	CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	ad698fcef2fd3c28
+2433	4332	0	libapp-glue.a	4a1f3582061155af
+4332	6225	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	1d6f37be907f3c01
+6225	6569	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f

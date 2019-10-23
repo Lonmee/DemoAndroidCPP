@@ -1,0 +1,4 @@
+/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86/CMakeFiles/app-glue.dir
+/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
