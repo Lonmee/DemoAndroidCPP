@@ -3,3 +3,5 @@
 472	1559	0	libapp-glue.a	c3d937aca310465d
 1559	1582	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	545ed7c5d00bd877
 1582	1809	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	50c9c38b1b9ed671
+3	4147	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	545ed7c5d00bd877
+4148	5682	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	50c9c38b1b9ed671

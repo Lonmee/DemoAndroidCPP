@@ -1,4 +1,2 @@
-[1/4] Building C object CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o
-[2/4] Linking C static library libapp-glue.a
-[3/4] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
-[4/4] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
