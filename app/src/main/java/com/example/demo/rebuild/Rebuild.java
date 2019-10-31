@@ -1,16 +1,23 @@
 package com.example.demo.rebuild;
 
+import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.demo.R;
+import com.example.demo.provider.StudentsProvider;
 
 public class Rebuild extends AppCompatActivity {
 
@@ -62,6 +69,30 @@ public class Rebuild extends AppCompatActivity {
                 Log.i("result", data.toString());
                 startActivity(new Intent(Intent.ACTION_VIEW));
             }
+        }
+    }
+
+    public void onClickAddName(View view) {
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(StudentsProvider.NAME,
+                ((EditText) findViewById(R.id.editText_name)).getText().toString());
+
+        contentValues.put(StudentsProvider.GRADE,
+                ((EditText) findViewById(R.id.editText_grade)).getText().toString());
+
+        Uri uri = getContentResolver().insert(StudentsProvider.CONTENT_URI, contentValues);
+
+        Toast.makeText(getBaseContext(), uri.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    public void onClickRetrieveStudents(View view) {
+        Cursor cursor = managedQuery(StudentsProvider.CONTENT_URI, null, null, null, "_id");
+        if (cursor.moveToFirst()) {
+            do {
+                Log.i("data: ", cursor.getString(cursor.getColumnIndex(StudentsProvider._ID)) +
+                        ", " + cursor.getString(cursor.getColumnIndex(StudentsProvider.NAME)) +
+                        ", " + cursor.getString(cursor.getColumnIndex(StudentsProvider.GRADE)));
+            } while (cursor.moveToNext());
         }
     }
 }

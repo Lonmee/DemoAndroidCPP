@@ -7,4 +7,9 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="btn_name">layout and svr test</string>
+
+    <string name="provider_txt_name">Name</string>
+    <string name="provider_txt_grade">Grade</string>
+    <string name="provider_btn_add">Add</string>
+    <string name="provider_btn_query">Query</string>
 </resources>

@@ -11,6 +11,11 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
+        <provider
+            android:name=".provider.StudentsProvider"
+            android:authorities="com.example.demo.provider.College" />
+
         <activity
             android:name=".rebuild.Rebuild"
             android:theme="@style/NoActionBarStyle"></activity>
