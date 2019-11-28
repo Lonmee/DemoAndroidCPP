@@ -52,15 +52,15 @@ public class Rebuild extends AppCompatActivity {
         edit.commit();
     }
 
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        Log.i("pressed:", String.valueOf(keyCode));
-        if (keyCode == KeyEvent.KEYCODE_C) {
-            startActivityForResult(new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI), PICK_CONTACT_REQUEST);
-            return true;
-        }
-        return false;
-    }
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
+//        Log.i("pressed:", String.valueOf(keyCode));
+//        if (keyCode == KeyEvent.KEYCODE_C) {
+//            startActivityForResult(new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI), PICK_CONTACT_REQUEST);
+//            return true;
+//        }
+//        return false;
+//    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
