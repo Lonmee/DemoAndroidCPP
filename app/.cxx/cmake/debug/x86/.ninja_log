@@ -8,3 +8,5 @@
 170	2240	0	libapp-glue.a	4a1f3582061155af
 2240	3050	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	1d6f37be907f3c01
 3050	5485	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f
+1	943	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	1d6f37be907f3c01
+943	1201	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f
