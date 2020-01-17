@@ -12,3 +12,12 @@
 28424	30186	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	50c9c38b1b9ed671
 1	356	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	545ed7c5d00bd877
 357	770	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	50c9c38b1b9ed671
+0	79	0	build.ninja	a7e0db5beb782da
+2	119	0	CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	c010f6a5ffabb141
+119	1508	0	libapp-glue.a	c3d937aca310465d
+1508	1782	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	2b74197a267af962
+1782	2418	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	ca05e024817b5c9d
+3	132	0	CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	c010f6a5ffabb141
+132	188	0	libapp-glue.a	c3d937aca310465d
+188	1622	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	2b74197a267af962
+1622	1694	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	ca05e024817b5c9d

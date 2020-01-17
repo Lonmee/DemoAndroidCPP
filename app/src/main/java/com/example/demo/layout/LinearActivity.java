@@ -36,22 +36,22 @@ public class LinearActivity extends AppCompatActivity {
         public void onServiceConnected(ComponentName name, IBinder service) {
             IMyAidlInterface iMyAidlInterface = IMyAidlInterface.Stub.asInterface(service);
             try {
-                Log.d("svr aidl", "connected");
                 ((TextView) findViewById(R.id.svrStr)).setText(iMyAidlInterface.getString());
             } catch (Exception e) {
-                Log.d("error: ", e.getMessage());
+                ((TextView) findViewById(R.id.svrStr)).setText(e.getMessage());
             }
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-            Log.d("svr", "be disconnected");
+            ((TextView) findViewById(R.id.svrStr)).setText("be disconnected");
         }
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.i("LinearActivity", "created");
         mSvrIntent = new Intent(LinearActivity.this, LocalService.class);
         mSvrAIntent = new Intent();
         mSvrAIntent.setAction("com.example.aidlsvr.MyService");
@@ -101,11 +101,9 @@ public class LinearActivity extends AppCompatActivity {
     public void unbindSvr(View view) {
         try {
             unbindService(mServiceConnection);
-            ((TextView) findViewById(R.id.svrStr)).setText("local server gone");
-            Log.d("svr", "disconnected");
+            ((TextView) findViewById(R.id.svrStr)).setText("local server unbind");
         } catch (Exception e) {
             ((TextView) findViewById(R.id.svrStr)).setText(e.getMessage());
-            Log.d("error: ", e.getMessage());
         }
     }
 
@@ -116,11 +114,9 @@ public class LinearActivity extends AppCompatActivity {
     public void unbindASvr(View view) {
         try {
             unbindService(mServiceAConnection);
-            ((TextView) findViewById(R.id.svrStr)).setText("aidl server gone");
-            Log.d("aidl svr", "disconnected");
+            ((TextView) findViewById(R.id.svrStr)).setText("aidl server unbind");
         } catch (Exception e) {
             ((TextView) findViewById(R.id.svrStr)).setText(e.getMessage());
-            Log.d("error: ", e.getMessage());
         }
     }
 }

@@ -10,3 +10,14 @@
 3050	5485	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f
 1	943	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	1d6f37be907f3c01
 943	1201	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f
+9	70925	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	1d6f37be907f3c01
+70964	83078	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	57543f1e3818065f
+8	592	0	build.ninja	62366c60c1381ba6
+1	9755	0	CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	be3bcd147dc5c500
+9755	12297	0	libapp-glue.a	4a1f3582061155af
+12297	13196	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	e12087396e84cf2b
+13196	14077	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f202963b363c5940
+1	92	0	CMakeFiles/app-glue.dir/Users/lonmee/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	be3bcd147dc5c500
+92	127	0	libapp-glue.a	4a1f3582061155af
+127	470	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	e12087396e84cf2b
+470	583	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f202963b363c5940

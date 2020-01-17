@@ -25,16 +25,6 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".layout.LinearActivity" />
-        <activity android:name=".layout.ConstraintLayout" />
-        <activity android:name=".layout.TableLayout" />
-        <activity android:name=".layout.FrameLayout" />
-        <activity
-            android:name=".layout.FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:launchMode="singleInstance"
-            android:theme="@style/FullscreenTheme" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,6 +32,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".layout.LinearActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".layout.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:launchMode="standard"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".layout.FrameLayout"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".layout.TableLayout"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".layout.ConstraintLayout"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

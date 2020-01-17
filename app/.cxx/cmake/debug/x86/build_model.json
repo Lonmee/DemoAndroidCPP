@@ -5,7 +5,6 @@
       "sdkFolder": "/Users/lonmee/Library/Android/sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "x86,armeabi-v7a,armeabi",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/build/intermediates",
       "gradleModulePathName": ":app",
@@ -15,7 +14,7 @@
       "compilerSettingsCacheFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/.cxx",
       "cxxFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx",
       "ndkFolder": "/Users/lonmee/Library/Android/sdk/ndk-bundle",
-      "ndkVersion": "20.1.5948944",
+      "ndkVersion": "21.0.6113669",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -48,8 +47,10 @@
     "gradleBuildOutputFolder": "/Users/lonmee/Public/lonmee.com/AndroidStudio/Demo/app/.cxx/cxx/debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
       "X86",
-      "ARMEABI_V7A"
+      "X86_64"
     ],
     "buildTargetSet": []
   },
